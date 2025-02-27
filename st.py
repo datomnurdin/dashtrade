@@ -30,17 +30,11 @@ debt_ratio = [metric['debtToEquity'] for metric in key_metric_data]
 pe_ratio = [metric['peRatio'] for metric in key_metric_data]
 ps_ratio = [metric['priceToSalesRatio'] for metric in key_metric_data]
 
-free_cash_flow = [cash_flow['freeCashFlow'] for cash_flow in cash_flow_statement]
-
-# Reverse for chronological order
-free_cash_flow.reverse()
-
 # Reverse data for chronological order
 dates.reverse()
 revenue.reverse()
 gross_profit_margin.reverse()
 net_margin.reverse()
-free_cash_flow.reverse()
 dividend_yield.reverse()
 current_ratio.reverse()
 debt_ratio.reverse()
