@@ -84,7 +84,6 @@ metrics = {
     "Revenue (Millions)": revenue,
     "Gross Profit Margin": gross_profit_margin,
     "Net Margin": net_margin,
-    "Free Cash Flow": free_cash_flow,
     "Dividend Yield": dividend_yield,
     "Current Ratio": current_ratio,
     "Debt Ratio": debt_ratio,
