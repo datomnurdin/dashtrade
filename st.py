@@ -12,9 +12,6 @@ with open('income_statement.json', 'r') as f:
 with open('key_metric.json', 'r') as f:
     key_metric_data = json.load(f)
 
-with open('cash_flow_statement.json', 'r') as f:
-    cash_flow_statement = json.load(f)
-
 markets = ["NYSE", "NASDAQ"]
 tickers = ["NVDA", "AAPL", "TSLA", "AMZN"]
 
