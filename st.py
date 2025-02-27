@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-import plotly.graph_objects as go
+import plotly.graph_objs as go
 
 st.set_page_config(layout="wide")
 
